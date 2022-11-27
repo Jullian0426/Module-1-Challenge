@@ -8,6 +8,17 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/*Style and position header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,16 +52,9 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
-.hero {
+/*Style and resize meeting image*/
+.meeting-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,12 +62,15 @@ p {
     object-position: center;
 }
 
+
+/*Position content section to fill 75% of the left side*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Style the contents of each div into discernable boxes*/
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -77,6 +84,12 @@ p {
     max-height: 200px;
 }
 
+.content div h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -87,11 +100,8 @@ p {
     margin-left: 25px;
 }
 
-.content div h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
+/*Position the benefits seciton to the right side in a lighter blue box*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,6 +129,7 @@ p {
     max-width: 150px;
 }
 
+/*Center and style the footer*/
 footer {
     padding: 30px;
     clear: both;
