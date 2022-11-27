@@ -13,7 +13,7 @@ N/A
 Click this link to be sent to the deployed website.
 https://jullian0426.github.io/Module-1-Challenge/
 
-![alt text](./Develop/assets/images/screenshot.png)
+![alt text](./assets/images/screenshot.png)
 
 Press the F12 key to display Chrome DevTools and use the asset selector to view the code for each section of the webpage and what additions make it more accessible.
 
